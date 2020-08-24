@@ -1,0 +1,532 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+}
+.navbar ul{
+    margin-left: 30px;
+    
+}
+.navbar ul li a{
+    font-weight: 500;
+    margin-left: 10px;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 10px;
+    
+}
+.navbar ul .login-signup-button button{
+    
+    position: absolute;
+    right: 0;
+    
+}
+.navbar .login-signup-button .signup{
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 60px;
+    padding: 5px;
+    width: 120px;
+    color: white;
+   
+   
+}
+.intro-content{
+    margin-top: 100px;
+}
+.intro-content .intro-head h1{
+    font-weight: 900;
+    font-size: 50px;
+  
+}
+.intro-content .intro-para p{
+    color:  hsl(257, 7%, 63%);
+}
+.intro-content .get-registerd{
+    color: white;
+    background-color:  hsl(180, 66%, 49%);
+    padding: 10px;
+    border-radius: 60px;
+    width: 170px;
+}
+.mid-content{
+    background-color:  hsl(0, 0%, 75%)	;
+    margin-top: 120px;
+}
+.jumbotron{
+    transform: translate(0px,-50%);
+}
+   
+
+.mid-content input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+   border-color: white;
+    padding-left: 20px;
+}
+.shortern{
+  margin-left: 0;
+}
+.shortern-button{
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    width: 100%;
+   
+}
+.shortern-button:hover{
+    color: white;
+}
+.mid-content-head h1{
+    text-align: center;
+    font-weight: 500;
+}
+.mid-content-head p{
+  color:  hsl(257, 7%, 63%);
+    text-align: center;
+    font-size: 18px;
+   
+   
+
+}
+.speciality .spec-one, .speciality .spec-two, .speciality .spec-three{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.speciality .spec-img{
+    background-color: hsl(260, 8%, 14%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transform: translate(0px,-60%);
+   
+}
+.speciality .spec-img .brand-img{
+   transform: translate(0%, 0%);
+}
+
+.speciality .spec-head h2{
+   margin-top: -80px;
+    font-weight: 700;
+}
+.speciality .spec-para p{
+    color: hsl(257, 7%, 63%);
+}
+.get-started{
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 60px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+.last-content{
+    height: 250px;
+    padding: 50px;
+    background-repeat: no-repeat;
+   
+    background-color:hsl(257, 27%, 26%) ;
+    color: white;
+}
+.get-started:hover{
+    color: white;
+
+}
+footer{
+    margin-top: -50px;
+    background-color: black;
+}
+footer .footer-head,footer .footerone-head,footer .footertwo-head{
+    color: white;
+}
+footer .footer-item .footer-link, footer .footerone-item .footerone-link, footer .footertwo-item .footertwo-link, footer .footertwo-item .footertwo-link{
+    text-decoration: none;
+    font-size: 13px;
+    color:hsl(257, 7%, 63%);
+}
+footer .social-media ul li{
+    display: inline;
+    padding: 5px;
+  
+   
+}
+footer .social-media ul li a{
+    color: white;
+}
+footer .social-media ul li:hover{
+    background-color: hsl(180, 66%, 49%);
+}
+
+
+    
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .navbar ul{
+        margin-top: 30px;
+        margin-left: 60%;
+        text-align: center;
+        
+    }
+    .line{
+        border-top: 1px solid black;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 10%;
+        
+    }
+    .intro-content .intro-head h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .intro-content .intro-para p, .intro-content .register-button{
+        text-align: center;
+    }
+    .intro-content .intro-img .intro-imgone{
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+  }
+  .mid-content{
+    margin-top: 200px;
+
+}
+.jumbotron{
+  background: url('images/bg-shorten-mobile.svg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-color:  hsl(257, 27%, 26%);
+  }
+  .shortern{
+     margin-top: 30px;
+    }
+    .speciality{
+        margin-top:100px;
+        text-align: center;
+    }
+    .speciality .spec-two,.speciality .spec-three{
+        margin-top: 70px;
+
+    }
+    .speciality .spec-img {
+       padding: 30px;
+       margin:  auto;
+      
+
+    }
+    .speciality .spec-head{
+        margin-top: 50px;
+       
+    }
+    .last-content{
+        background-image: url('images/bg-boost-mobile.svg');
+        background-size: cover
+        
+      
+        
+        
+    }
+    .last-content .last-head h1{
+        font-size: 22px;
+    }
+   footer .footer-img .footer-logo-img{
+    margin-top: 20px;
+  margin-left: auto; 
+  margin-right: auto; 
+      
+   }
+   footer h4{
+       margin-top: 40px;
+   text-align: center;
+   }
+   footer .footer-item, footer .footerone-item, footer .footertwo-item{
+       text-align: center;
+   }
+   footer .social-media{
+      
+      justify-content: center;
+   }
+   footer .social-media ul li a{
+       margin-top: 30px;
+   }
+    
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar ul{
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 100%;
+        
+    }
+    .intro-content .intro-head{
+        margin-top: 50px;
+    }
+    .intro-content .intro-head h1{
+        font-size:45px ;
+        text-align: center;
+
+    }
+    .intro-content .intro-para p, .intro-content .register-button{
+        text-align: center;
+    }
+    
+    .intro-content .intro-img .intro-imgone{
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+  }
+  .mid-content{
+      margin-top: 200px;
+
+  }
+  .jumbotron{
+    background: url('images/bg-shorten-desktop.svg');
+    
+    background-color:  hsl(257, 27%, 26%);
+    }
+    .shortern{
+       margin-top: 30px;
+      }
+      .speciality{
+        margin-top:100px;
+        text-align: center;
+    }
+    .speciality .spec-two,.speciality .spec-three{
+        margin-top: 70px;
+
+    }
+    .speciality .spec-img {
+       padding: 30px;
+       margin-left: 40%;
+      
+
+    }
+    .speciality .spec-head{
+        margin-top: 50px;
+       
+    }
+    .last-content{
+        background-image: url('images/bg-boost-mobile.svg');
+        background-size: cover
+        
+      
+        
+        
+    }
+    footer .footer-img .footer-logo-img{
+        margin-top: 20px;
+        margin-left: auto; 
+        margin-right: auto; 
+            
+         }
+         footer h4{
+             margin-top: 40px;
+         text-align: center;
+         }
+         footer .footer-item, footer .footerone-item, footer .footertwo-item{
+             text-align: center;
+         }
+         footer .social-media{
+            
+            justify-content: center;
+         }
+         footer .social-media ul li a{
+             margin-top: 30px;
+         }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar .login-signup-button{
+        position: absolute;
+        right: 30px;
+    }
+    .intro-content .intro-head h1{
+        font-size:43px ;
+
+    }
+    .intro-content .register-button{
+        margin-top: 40px;
+    }
+    .intro-content .intro-img{
+        margin-top: -80px;
+    }
+    .intro-content .intro-img .intro-imgone{
+        width: 110%;
+        height: 350px;
+        object-fit: contain;  
+       
+    }
+    .jumbotron{
+        background: url('images/bg-shorten-desktop.svg');
+        
+        background-color:  hsl(257, 27%, 26%);
+    }
+    .shortern-button{
+        
+        width: 120%;
+       
+    }
+    .speciality{
+        margin-top:150px;
+    }
+    .speciality .spec-img {
+       padding: 30px;
+
+    }
+    .speciality .spec-head{
+        margin-top: 50px;
+       
+    }
+    .speciality .spec-head h2{
+        font-size: 19px;
+    }
+    .speciality .spec-head p{
+        font-size: 16px;
+
+    }
+    .speciality .spec-two{
+        margin-top: 20%;
+    }
+    .speciality .spec-three{
+        margin-top: 40%;
+
+    }
+    .last-content{
+        background-image: url('images/bg-boost-desktop.svg');
+        background-size: cover;
+        
+      
+        
+        
+    }
+    
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+    .navbar .login-signup-button{
+        position: absolute;
+        right: 30px;
+    }
+    .intro-content .register-button{
+        margin-top: 40px;
+    }
+    .intro-content .intro-img{
+        margin-top: -50px;
+    }
+    .intro-content .intro-img .intro-imgone{
+        width: 110%;
+        height: 350px;
+        object-fit: contain;
+        
+        
+        
+        
+       
+      
+       
+    }
+    .jumbotron{
+        background: url('images/bg-shorten-desktop.svg');
+        background-color:  hsl(257, 27%, 26%);
+    }
+    .speciality{
+        margin-top:100px;
+    }
+    .speciality .spec-img {
+       padding: 30px;
+
+    }
+    .speciality .spec-head{
+        margin-top: 50px;
+    }
+    .speciality .spec-two{
+        margin-top: 10%;
+    }
+    .speciality .spec-three{
+        margin-top: 20%;
+
+    }
+    .last-content{
+        background-image: url('images/bg-boost-desktop.svg');
+        background-size: cover;
+        
+      
+        
+        
+    }
+    
+  }
+
+
+@media (min-width: 1200px) { 
+    .login-signup-button{
+        position: absolute;
+        right: 100px;
+        
+    }
+    .intro-content .register-button{
+        margin-top: 40px;
+    }
+    .intro-content .intro-img{
+        margin-top: -70px;
+    }
+    .intro-content .intro-img .intro-imgone{
+        width: 120%;
+        height: 400px;
+        object-fit: contain;
+       
+      
+       
+    }
+    .jumbotron{
+        background: url('images/bg-shorten-desktop.svg');
+        background-color:  hsl(257, 27%, 26%);
+    }
+    .speciality{
+        margin-top:200px;
+    }
+    .speciality .spec-img {
+       padding: 30px;
+
+    }
+    .speciality .spec-head{
+        margin-top: 50px;
+    }
+    .speciality .spec-two{
+        margin-top: 10%;
+    }
+    .speciality .spec-three{
+        margin-top: 20%;
+
+    }
+    .last-content{
+        background-image: url('images/bg-boost-desktop.svg');
+        background-size: cover;
+        
+      
+        
+        
+    }
+    footer .row{
+        margin-top: 50px;
+    }
+    
+   
+    
+   
+    
+ }
